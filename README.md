@@ -1,5 +1,7 @@
 # Issue Reporter
 
+[![Build Status](https://travis-ci.org/millerrs/issue-reporter.svg?branch=master)](https://travis-ci.org/millerrs/issue-reporter)
+
 A tool for creating reports on Github issues.
 
 ## Usage
