@@ -1,0 +1,29 @@
+{
+  "name": "issue-reporter",
+  "version": "1.0.0",
+  "description": "A tool for creating reports on Github issues.",
+  "bin": "./index.js",
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "keywords": [
+    "github",
+    "issues",
+    "reports"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/millerrs/issue-reporter.git"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.25.0",
+    "commander": "^2.20.0",
+    "mustache": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
